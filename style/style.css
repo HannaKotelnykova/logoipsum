@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+/* container */
+.header, .footer{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 47px;  
+}
+.header_flex, .footer-flex, .first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+    
+}
+.container-nav{
+
+}
+.container-nav-li{
+    display: inline-block;
+}
+.container-nav-li:not(:first-of-type){
+    margin-left: 49px;    
+}
+.container-nav-li-link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+.container-nav-li-link:hover{
+    color: black;
+    transition: 300ms;
+}
+.button-container{
+    background: #FF7143;
+}
+.button-container:hover{
+    background: #fb4306;
+    transition: 500ms;
+}
+/* button */
+.button{
+    width: 212px;
+    height: 60px;
+    padding: 19px 60px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+/* fist-section */
+.first-section{
+    margin: 104px auto 85px;
+}
+.first-section-about-tittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px; 
+    color: #19191B;
+    max-width: 467.24px;
+    max-height: 231px;  
+    margin-bottom: 30px; 
+}
+.first-section-about-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 464.21px;
+    max-height: 90px;
+    margin-bottom: 50px;
+}
+.button-first{
+    margin-right: 112px;
+}
+.button-violet{
+    background: #5454D4;
+}
+.button-white{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+}
+
+/* h */
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: pink;
+}
+/* footer */
+.footer{
+    padding: 53px 0;
+}
